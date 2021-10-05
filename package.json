@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "aplicacion web de chat en vivo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sockets/Server.js",
+    "dev": "nodemon sockets/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandanfabricio/Chat.git"
+  },
+  "author": "Brandan Fabricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandanfabricio/Chat/issues"
+  },
+  "homepage": "https://github.com/brandanfabricio/Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
